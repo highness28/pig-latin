@@ -1,0 +1,27 @@
+@import '../../../theme.scss';
+
+.banner {
+		background-image: url("../../../assets/images/kawaii-banner.png");
+		align-items: center;
+		background-size: 100% 100%;
+		height: 400;
+		padding-left: 20%;
+		padding-right: 15%;
+}
+
+.bannerHeaderContainer {
+		align-items: flex-end;
+}
+
+.bannerHeader {
+		font-family: $fontFamily;
+		font-size: 50;
+		text-align: center;
+}
+
+.bannerHeaderSubtitle {
+		font-family: $fontFamily;
+		font-size: 20;
+		margin-top: 10;
+		text-align: center;
+}

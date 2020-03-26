@@ -1,0 +1,113 @@
+@import '../../../theme.scss';
+
+.button {
+		border: none;
+		border-radius: 5px;
+		font-family: $fontFamily;
+		padding: 0 30px;
+		outline: none;
+		cursor: pointer;
+
+		&.xs {
+				font-size: 12;
+				font-weight: 300;
+				height: 30;
+		}
+
+		&.sm {
+				font-size: 14;
+				font-weight: 400;
+				height: 40;
+		}
+
+		&.md {
+				font-size: 16;
+				font-weight: 400;
+				height: 50;
+		}
+
+		&.lg {
+				font-size: 18;
+				font-weight: 500;
+				height: 60;
+		}
+		
+		&.xl {
+				font-size: 20;
+				font-weight: 500;
+				height: 70;
+		}
+
+		&.primary {
+				background-color: $primary;	
+				color: $white;
+
+				&:hover {
+						background-color: $warning;
+				}
+
+				&:active {
+						background-color: $danger;
+				}
+		}
+
+		&.default {
+				background-color: $default;
+				color: $darkGray;
+				border: 1px solid $gray;
+				
+				&:hover {
+						background-color: $darkGray;
+						color: $white;
+				}
+
+				&:active {
+						background-color: $default;
+						color: $darkGray;
+				}
+		}
+
+		&.success {
+				background-color: $success;
+				color: $white;
+
+				&:hover {
+						background-color: $primary;
+				}
+
+				&:active {
+						background-color: $warning;
+				}
+		}
+
+		&.warning {
+				background-color: $warning;
+				color: $white;
+
+				&:hover {
+						background-color: $danger;
+				}
+
+				&:active {
+						background-color: $success;
+				}
+		}
+
+		&.danger {
+				background-color: $danger;
+				color: $white;
+
+				&:hover {
+						background-color: $darkGray;
+						color: $white;
+				}
+
+				&:active {
+						background-color: $success;
+				}
+		}
+}
+
+.icon {
+		margin-right: 5;
+}

@@ -1,0 +1,39 @@
+@import '../styles.scss';
+
+@mixin presentations() {
+		align-items: center;
+		margin-bottom: 50;
+
+		h1 {
+				text-decoration: underline;
+		}
+}
+ 
+.overview {
+		align-items: center;
+		justify-content: center;
+
+		li {
+				font-size: 20;
+		}
+}
+
+.buttonList {
+		@include presentations()
+}
+
+.modalList {
+		@include presentations()
+}
+
+.tableList {
+		@include presentations()
+}
+
+.textAreaList {
+		@include presentations()
+
+		TextArea {
+				margin-right: 10;
+		}
+}

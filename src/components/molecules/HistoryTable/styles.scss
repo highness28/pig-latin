@@ -1,0 +1,43 @@
+@import '../../../theme.scss';
+
+table {
+		width: 80%;
+}
+
+@mixin typography() {
+		font-family: $fontFamily;
+		font-size: 20;
+}
+
+table {
+		@include typography()
+		border-collapse: collapse;
+		margin: 0;
+
+		thead {
+				font-weight: bold;
+				background-color: $pink;
+
+				td {
+						color: $white;
+						padding: 10;
+				}
+		}
+
+		tbody {
+				font-weight: 500;
+
+				td {
+						padding: 10;
+						border-bottom: 1px solid black;
+				}
+
+				td:nth-child(3) {
+						width: 100;
+				}
+		}
+}
+
+.customButton {
+		width: 130;
+}

@@ -1,0 +1,35 @@
+{
+  "homepage": "http://highness28.github.io/pig-latin",
+  "name": "pig-latin",
+  "version": "1.0.0",
+  "description": "Sample project to present to SnapMart for Technical exam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"clean": "rimraf dist .cache",
+    "start": "npm run clean && parcel index.html --port 8080",
+    "build": "npm run clean && parcel build index.html --public-url ./",
+		"deploy": "npm run build && gh-pages -d dist"
+  },
+  "author": "German Manalili",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-module-resolver": "^4.0.0",
+    "components": "^0.1.0",
+    "node-sass": "^4.13.1",
+    "parcel": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hot-loader": "^4.12.20",
+    "react-icons": "^3.9.0",
+    "react-is": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "react-youtube": "^7.9.0",
+    "rimraf": "^3.0.2",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "gh-pages": "^2.2.0"
+  }
+}

@@ -1,0 +1,34 @@
+@import '../../../theme.scss';
+
+@mixin typography() {
+		font-family: $fontFamily;
+}
+
+@mixin pager() {
+		cursor: pointer;
+}
+
+.paginationContent {
+		@include typography()
+		margin-right: 10;
+}
+
+.pageNumber { 
+		@include typography()	
+		@include pager()
+		font-size: 20;
+		margin-right: 10;
+}
+
+.left {
+		@include pager()
+		margin-right: 10;
+}
+
+.right {
+		@include pager()
+}
+
+.activePage {
+		border-bottom: 1px solid black;
+}

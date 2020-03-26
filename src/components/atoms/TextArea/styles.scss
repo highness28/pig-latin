@@ -1,0 +1,21 @@
+@import '../../../theme.scss';
+
+.textArea {
+		border: 1px solid $darkGray;
+		border-radius: 10px;
+		outline: none;
+		height: 200;
+		width: 400;
+		font-size: 20;
+		padding: 10;
+
+		&:disabled {
+				background-color: $gray;
+		}
+}
+
+.textAreaLabel {
+		font-family: $fontFamily;
+		font-size: 20;
+		margin-bottom: 5;
+}
