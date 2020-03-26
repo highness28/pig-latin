@@ -6,7 +6,7 @@ import Footer from '@components/molecules/Footer'
 import theme from './theme.scss'
 
 const App = () => (
-		<Router baseName='pig-latin'>
+		<Router basename='/pig-latin'>
 				<NavBar />
 				<Content />
 				<Footer />
