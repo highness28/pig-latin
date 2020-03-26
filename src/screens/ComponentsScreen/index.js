@@ -23,6 +23,7 @@ const ComponentsScreen = () => {
 										<h1>Overview</h1>
 										<ol>
 												<li>I built this from scratch using npm init and npm install (some packages)</li>
+												<li>I just noticed this now and the tab formatting looks awful. I am actually currently using vim (2 weeks already) and this is actually my first time seeing the format. so yeah this kinda sucks. The whole code is already done. I'll just change my settings for the next projects.</li>
 												<li>What I did here is to make it as simple as possible that's also the reason if you check package.json you will just see a few packages installed. I wanna make this as small as possible.</li>
 												<li>Showcasing my skills based on used packages by others will not make a pitch. I want you to see how I will implement things without even using as much as possible a package at all. As you can see even the buttons, modal, table are made purely by me and no material, glamorous, ionic, etc... is used in this project.</li>
 												<li>I used parcel for this since implementation in parcel is a lot faster and given the time that I was given of course I am still working at my current job and I can't focus on this project 100% so I think using webpack will just give me headache and I will just waste time using it. Also in a project you have to use the most efficient way and tool as possible and since the project is not even that complicated I rooted for parcel on this.</li>
